@@ -1,0 +1,10 @@
+{
+    "serial": "Seriennummer",
+    "serial_valid": "Seriennummer gefunden",
+    "serial_invalid": "Seriennummer nicht gefunden",
+
+    "owner": "Besitzer",
+    "owner_error": "Kein Besitzer gefunden",
+
+    "textUI": "[E] Seriennummer Register"
+}

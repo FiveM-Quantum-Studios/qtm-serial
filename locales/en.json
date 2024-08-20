@@ -1,0 +1,10 @@
+{
+    "serial": "Serial number",
+    "serial_valid": "Serial number found",
+    "serial_invalid": "Serial number not found",
+
+    "owner": "Owner",
+    "owner_error": "No owner found",
+
+    "textUI": "[E] Serial number register"
+}
