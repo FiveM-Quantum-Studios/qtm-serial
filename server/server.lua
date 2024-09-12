@@ -1,13 +1,11 @@
 lib.locale()
 
 local hookId = exports.ox_inventory:registerHook('buyItem', function(payload)
-    print(qtm.DumpTable(payload))
-
     if not string.match(payload.itemName, "WEAPON_") then return end
 
     if payload.metadata and payload.metadata.registered and payload.metadata.serial then
         local serialString = tostring(payload.metadata.serial)
-        local ownerString = tostring(payload.metadata.registered)
+        local ownerString = qtm.Framework.GetChar(payload.source).fullname
         database[serialString] = ownerString
         saveDatabase(database)
     end

@@ -1,5 +1,4 @@
 lib.locale()
-
 Citizen.CreateThread(function()
     if not Config.OXTarget then
         local marker = Config.Marker
