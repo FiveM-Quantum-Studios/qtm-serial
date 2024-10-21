@@ -1,3 +1,3 @@
 if Config.checkForUpdates then
-    lib.versionCheck('FiveM-Quantum-Studios/qtm-serial')
+    qtm.Server.VersionChecker('qtm-serial')
 end

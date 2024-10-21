@@ -26,3 +26,7 @@ files {
     'database.json',
     'locales/*.*',
 }
+
+escrow_ignore {
+    '**/*.*'
+}
