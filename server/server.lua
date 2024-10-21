@@ -1,6 +1,7 @@
 lib.locale()
+local ox_inventory = exports.ox_inventory
 
-local hookId = exports.ox_inventory:registerHook('buyItem', function(payload)
+local hookId = ox_inventory:registerHook('buyItem', function(payload)
     if not string.match(payload.itemName, "WEAPON_") then return end
 
     if payload.metadata and payload.metadata.registered and payload.metadata.serial then

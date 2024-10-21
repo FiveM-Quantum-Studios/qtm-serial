@@ -1,4 +1,6 @@
 lib.locale()
+local ox_target = exports.ox_target
+
 Citizen.CreateThread(function()
     if not Config.OXTarget then
         local marker = Config.Marker
@@ -50,7 +52,7 @@ Citizen.CreateThread(function()
         end
     else
         for locationId, data in pairs(Config.Locations) do
-            exports.ox_target:addSphereZone({
+            ox_target:addSphereZone({
                 coords = data.Coords,
                 radius = Config.Target.TargetSize,
                 debug = Config.Debug,
@@ -71,8 +73,8 @@ Citizen.CreateThread(function()
 end)
 
 lib.callback.register('qtm-serial:client:getSerial', function()
-    local input = lib.inputDialog('Serial Input', {
-        {type = 'input', label = 'Serial input', description = 'Put the serial you want to lookup here', required = true},
+    local input = lib.inputDialog(locale('inputLabel'), {
+        {type = 'input', label = locale('inputLabel'), description = locale('inputDesc'), required = true},
       })
     return input[1]
 end)

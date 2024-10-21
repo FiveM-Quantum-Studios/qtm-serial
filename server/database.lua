@@ -14,6 +14,6 @@ end)
 AddEventHandler('txAdmin:events:scheduledRestart', function(eventData)
     if eventData.secondsRemaining == 60 then
         Wait(30000)
-        saveDatabase(database) -- save 30 seconds bevor server restart
+        saveDatabase(database) -- save 30 seconds before server restart
     end
 end)

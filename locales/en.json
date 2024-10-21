@@ -6,5 +6,7 @@
     "owner": "Owner",
     "owner_error": "No owner found",
 
-    "textUI": "[E] Serial number register"
+    "textUI": "[E] Serial number register",
+    "inputDesc": "Put the serial you want to lookup here",
+    "inputLabel": "Serial input"
 }
