@@ -3,7 +3,7 @@ game 'gta5'
 lua54 'yes'
 
 author 'Quantum Studios'
-description 'Description'
+description 'An advanced serial number script that logs purchased weapons in a database for police to identify the owner.'
 version '1.0.0'
 
 dependencies {

@@ -1,5 +1,4 @@
-# [FREE] qtm-serial
-advanced serialnumber script which allows saves every purchased weapon in a database to be looked up by your police to identify the owner
+# [FREE] qtm-serial - An advanced serial number script that logs purchased weapons in a database for police to identify the owner.
 
 ## Dependencies
 * qtm-lib - https://github.com/FiveM-Quantum-Studios/qtm-lib
