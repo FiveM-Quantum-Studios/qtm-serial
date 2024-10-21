@@ -7,6 +7,6 @@
     "owner_error": "Kein Besitzer gefunden",
 
     "textUI": "[E] Seriennummer Register",
-    "inputDesc": "Put the serial you want to lookup here",
-    "inputLabel": "Serial input"
+    "inputDesc": "Seriennummer hier eingeben",
+    "inputLabel": "Seriennummer eingabe"
 }
